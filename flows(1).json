@@ -1,0 +1,39 @@
+[
+    {
+        "id": "e374c531cbc7d71d",
+        "type": "ui_text",
+        "z": "a543dc9526773543",
+        "group": "4a2e0e0ce6270b2e",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "text",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 570,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "4a2e0e0ce6270b2e",
+        "type": "ui_group",
+        "name": "Fecha Actual",
+        "tab": "e843dff4c7cb4a0f",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e843dff4c7cb4a0f",
+        "type": "ui_tab",
+        "name": "Flow 2. Fecha",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    }
+]
